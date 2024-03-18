@@ -47,7 +47,7 @@ services:
     command: [ 'mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci' ]
 
   weaviate:
-    image: semitechnologies/weaviate:1.19.6
+    image: cr.weaviate.io/semitechnologies/weaviate:1.19.6
     ports:
       - "8080:8080"
     environment:
